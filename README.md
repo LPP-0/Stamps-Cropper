@@ -36,10 +36,14 @@ If you prefer to run the source code, or if you use macOS or Linux:
 4. Run the application:
 
 	```bash
-	python main.py
+	python src/main.py
 	```
 
 ## User Guide
+
+<!-- Add a screenshot here:
+![Interface Screenshot](imgs/screenshot1.png)
+-->
 
 1. **Add Images:** Click `+ Adicionar (ou arrastar)` or drag and drop stamp images into the application.
 2. **Reorder Images:** Drag the `☰` icon next to an image to change its processing order.
@@ -47,10 +51,7 @@ If you prefer to run the source code, or if you use macOS or Linux:
 4. **Configure Naming:** Set the desired prefix, starting counter (for example, `1`), and suffix.
 5. **Adjust Margins (Optional):** Change the top, bottom, left, and right pixel values to leave more or less background around the stamp.
 6. **Process Images:** Click the green `Recortar Selos` button.
-
-<!-- Add a screenshot here:
-![Interface Screenshot](imgs/screenshot1.png)
--->
+7. **View Results:** The cropped stamps will be saved as individual high-quality images using your configured naming scheme, and the destination folder will open automatically.
 
 ## License
 
