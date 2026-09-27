@@ -1,4 +1,4 @@
-# Stamp Cropper
+# Stamps Cropper
 
 A lightweight batch image-processing tool designed to automate the cropping of stamp images while preserving customizable margins. This application was developed in Portuguese as a tailored solution for a client's daily workflow, helping eliminate repetitive manual image editing. The user interface and most of the in-app text are currently in Portuguese.
 

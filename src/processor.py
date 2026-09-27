@@ -3,7 +3,9 @@ import numpy as np
 import os
 
 def process_stamps(image_path, output_folder, prefix, start_counter, suffix, pad_top=20, pad_bottom=50, pad_left=20, pad_right=20):
-    img = cv2.imread(image_path)
+    img_array = np.fromfile(image_path, np.uint8)
+    img = cv2.imdecode(img_array, cv2.IMREAD_COLOR)
+    
     if img is None:
         raise Exception(f"Erro: Não foi possível carregar a imagem: {image_path}")
     
