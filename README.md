@@ -3,6 +3,9 @@
 A lightweight batch image-processing tool designed to automate the cropping of stamp images while preserving customizable margins. This application was developed in Portuguese as a tailored solution for a client's daily workflow, helping eliminate repetitive manual image editing. The user interface and most of the in-app text are currently in Portuguese.
 
 This software is actively being developed and will continue to improve based on the end user's evolving needs.
+<p align="center">
+	<img src="images/interface.png" alt="Interface Screenshot" width="450">
+</p>
 
 ## Features
 
@@ -18,7 +21,7 @@ This software is actively being developed and will continue to improve based on 
 The easiest way to use the application is to download the pre-compiled executable:
 
 1. Go to the [Releases](../../releases) page.
-2. Download the latest `StampCropper.exe`.
+2. Download the latest `StampsCropper.exe`.
 3. Double-click the file to run the application.
 
 ### Option 2: Run from Source (All Operating Systems)
@@ -41,10 +44,6 @@ If you prefer to run the source code, or if you use macOS or Linux:
 
 ## User Guide
 
-<!-- Add a screenshot here:
-![Interface Screenshot](imgs/screenshot1.png)
--->
-
 1. **Add Images:** Click `+ Adicionar (ou arrastar)` or drag and drop stamp images into the application.
 2. **Reorder Images:** Drag the `☰` icon next to an image to change its processing order.
 3. **Set the Output Folder:** Click `Mudar` to select the folder where the cropped images will be saved.
@@ -52,6 +51,31 @@ If you prefer to run the source code, or if you use macOS or Linux:
 5. **Adjust Margins (Optional):** Change the top, bottom, left, and right pixel values to leave more or less background around the stamp.
 6. **Process Images:** Click the green `Recortar Selos` button.
 7. **View Results:** The cropped stamps will be saved as individual high-quality images using your configured naming scheme, and the destination folder will open automatically.
+
+## Simple Example
+
+The example below shows a single source image containing four stamps. With the default margin values, the application detects and crops each stamp into a separate image.
+
+<p align="center">
+	<img src="images/Example/Image.jpg" alt="Source image containing four stamps" width="580">
+</p>
+
+<p align="center"><strong>Source image</strong></p>
+
+<table align="center">
+	<tr>
+		<td align="center"><img src="images/Example/Result%201.jpg" alt="First cropped stamp" width="180"></td>
+		<td align="center"><img src="images/Example/Result%202.jpg" alt="Second cropped stamp" width="180"></td>
+		<td align="center"><img src="images/Example/Result%203.jpg" alt="Third cropped stamp" width="180"></td>
+		<td align="center"><img src="images/Example/Result%204.jpg" alt="Fourth cropped stamp" width="180"></td>
+	</tr>
+	<tr>
+		<td align="center"><sub>Result 1</sub></td>
+		<td align="center"><sub>Result 2</sub></td>
+		<td align="center"><sub>Result 3</sub></td>
+		<td align="center"><sub>Result 4</sub></td>
+	</tr>
+</table>
 
 ## License
 
